@@ -1,0 +1,11 @@
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\bin\Debug\net8.0\LibrasInterview.Domain.deps.json
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\bin\Debug\net8.0\LibrasInterview.Domain.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\bin\Debug\net8.0\LibrasInterview.Domain.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.AssemblyInfoInputs.cache
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.AssemblyInfo.cs
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\refint\LibrasInterview.Domain.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\ref\LibrasInterview.Domain.dll

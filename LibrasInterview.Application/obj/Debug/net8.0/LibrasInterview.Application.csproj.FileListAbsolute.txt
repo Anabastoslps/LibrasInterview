@@ -1,0 +1,15 @@
+C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Application.deps.json
+C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Application.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Application.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.AssemblyInfoInputs.cache
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.AssemblyInfo.cs
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\refint\LibrasInterview.Application.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\ref\LibrasInterview.Application.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.csproj.AssemblyReference.cache
+C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Domain.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Domain.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasIn.2F3B3CA5.Up2Date
