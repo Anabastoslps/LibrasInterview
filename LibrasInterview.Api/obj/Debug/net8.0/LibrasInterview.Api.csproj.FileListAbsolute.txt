@@ -109,3 +109,4 @@ C:\Projetos\LibrasInterview\LibrasInterview.Api\bin\Debug\net8.0\zh-Hans\Microso
 C:\Projetos\LibrasInterview\LibrasInterview.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projetos\LibrasInterview\LibrasInterview.Api\bin\Debug\net8.0\LibrasInterview.Application.dll
 C:\Projetos\LibrasInterview\LibrasInterview.Api\bin\Debug\net8.0\LibrasInterview.Application.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Api\obj\Debug\net8.0\LibrasInterview.Api.sourcelink.json

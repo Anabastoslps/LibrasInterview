@@ -9,3 +9,4 @@ C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterv
 C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\refint\LibrasInterview.Domain.dll
 C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.pdb
 C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\ref\LibrasInterview.Domain.dll
+C:\Projetos\LibrasInterview\LibrasInterview.Domain\obj\Debug\net8.0\LibrasInterview.Domain.sourcelink.json

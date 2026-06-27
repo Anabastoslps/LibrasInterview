@@ -1,6 +1,7 @@
 using LibrasInterview.Domain.Enums;
 
 namespace LibrasInterview.Domain.Entities;
+
 public class Entrevista
 {
     public virtual int Id { get; protected set; }
@@ -12,6 +13,7 @@ public class Entrevista
     public virtual Usuario Candidato { get; protected set; } = null!;
 
     public virtual DateTime DataHora { get; protected set; }
+    public virtual string Titulo { get; protected set; } = string.Empty;
 
     public virtual StatusEntrevista Status { get; protected set; }
     public virtual IList<Transcricao> Transcricoes { get; protected set; }
@@ -23,24 +25,32 @@ public class Entrevista
     }
 
     public Entrevista(
+        string titulo,
         Usuario entrevistador,
         Usuario candidato,
         DateTime dataHora
     )
     {
-
+        SetTitulo(titulo);
         SetEntrevistador(entrevistador);
         SetCandidato(candidato);
         ValidarParticipantes();
         SetDataHora(dataHora);
         SetStatusAgendada();
-        
+
+    }
+    public virtual void SetTitulo(string titulo)
+    {
+        if (string.IsNullOrWhiteSpace(titulo))
+            throw new Exception("Título da entrevista é obrigatório");
+
+        Titulo = titulo.Trim();
     }
 
     public virtual void SetEntrevistador(Usuario entrevistador)
     {
         if (entrevistador is null)
-        throw new Exception("Entrevistador é obrigatório");
+            throw new Exception("Entrevistador é obrigatório");
 
         Entrevistador = entrevistador;
         EntrevistadorId = entrevistador.Id;
@@ -63,7 +73,7 @@ public class Entrevista
 
     public virtual void SetDataHora(DateTime dataHora)
     {
-        if (dataHora < DateTime.UtcNow)
+        if (dataHora < DateTime.Now)
             throw new Exception("Data da entrevista deve ser no futuro");
 
         DataHora = dataHora;

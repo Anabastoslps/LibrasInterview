@@ -13,3 +13,4 @@ C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasI
 C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Domain.dll
 C:\Projetos\LibrasInterview\LibrasInterview.Application\bin\Debug\net8.0\LibrasInterview.Domain.pdb
 C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasIn.2F3B3CA5.Up2Date
+C:\Projetos\LibrasInterview\LibrasInterview.Application\obj\Debug\net8.0\LibrasInterview.Application.sourcelink.json

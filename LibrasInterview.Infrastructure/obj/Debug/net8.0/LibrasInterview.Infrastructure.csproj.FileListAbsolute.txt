@@ -17,3 +17,4 @@ C:\Projetos\LibrasInterview\LibrasInterview.Infrastructure\obj\Debug\net8.0\Libr
 C:\Projetos\LibrasInterview\LibrasInterview.Infrastructure\obj\Debug\net8.0\ref\LibrasInterview.Infrastructure.dll
 C:\Projetos\LibrasInterview\LibrasInterview.Infrastructure\bin\Debug\net8.0\LibrasInterview.Application.dll
 C:\Projetos\LibrasInterview\LibrasInterview.Infrastructure\bin\Debug\net8.0\LibrasInterview.Application.pdb
+C:\Projetos\LibrasInterview\LibrasInterview.Infrastructure\obj\Debug\net8.0\LibrasInterview.Infrastructure.sourcelink.json

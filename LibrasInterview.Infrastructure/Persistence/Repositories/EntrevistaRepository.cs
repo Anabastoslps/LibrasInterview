@@ -19,7 +19,6 @@ public class EntrevistaRepository : IEntrevistaRepository
         return await context.Entrevistas
             .Include(x => x.Entrevistador)
             .Include(x => x.Candidato)
-            .Include(x => x.Transcricoes)
             .FirstOrDefaultAsync(x => x.Id == id);
     }
 
@@ -28,6 +27,7 @@ public class EntrevistaRepository : IEntrevistaRepository
         return await context.Entrevistas
             .Include(x => x.Entrevistador)
             .Include(x => x.Candidato)
+            .OrderBy(x => x.DataHora)
             .ToListAsync();
     }
 

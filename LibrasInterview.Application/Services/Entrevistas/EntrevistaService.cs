@@ -29,9 +29,10 @@ public class EntrevistaService : IEntrevistaService
             ?? throw new Exception("Candidato não encontrado");
 
         Entrevista entrevista = new Entrevista(
+            request.Titulo,
             entrevistador,
             candidato,
-            request.DataHora);
+            request.DataHora.UtcDateTime);
 
         if (entrevistador.TipoUsuario != TipoUsuario.Entrevistador)
             throw new Exception("Usuário informado não é um entrevistador");
@@ -75,9 +76,10 @@ public class EntrevistaService : IEntrevistaService
         Usuario candidato = await usuarioRepository.ObterPorIdAsync(request.CandidatoId)
             ?? throw new Exception("Candidato não encontrado");
 
+        entrevista.SetTitulo(request.Titulo);
         entrevista.SetEntrevistador(entrevistador);
         entrevista.SetCandidato(candidato);
-        entrevista.SetDataHora(request.DataHora);
+        entrevista.SetDataHora(request.DataHora.UtcDateTime);
 
         await entrevistaRepository.AtualizarAsync(entrevista);
         await entrevistaRepository.SalvarAlteracoesAsync();
@@ -103,8 +105,11 @@ public class EntrevistaService : IEntrevistaService
         return new EntrevistaResponse
         {
             Id = entrevista.Id,
+            Titulo = entrevista.Titulo,
             EntrevistadorId = entrevista.Entrevistador.Id,
+            EntrevistadorNome = entrevista.Entrevistador.Nome,
             CandidatoId = entrevista.Candidato.Id,
+            CandidatoNome = entrevista.Candidato.Nome,
             DataHora = entrevista.DataHora,
             Status = entrevista.Status
         };
