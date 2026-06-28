@@ -6,6 +6,7 @@ public class EntrevistaResponse
 {
     public int Id { get; set; }
     public string Titulo { get; set; } = string.Empty;
+    public string Descricao { get; set; } = string.Empty;
     public int EntrevistadorId { get; set; }
     public string EntrevistadorNome { get; set; } = string.Empty;
     public int CandidatoId { get; set; }

@@ -30,6 +30,7 @@ public class EntrevistaService : IEntrevistaService
 
         Entrevista entrevista = new Entrevista(
             request.Titulo,
+            request.Descricao,
             entrevistador,
             candidato,
             request.DataHora.UtcDateTime);
@@ -77,6 +78,7 @@ public class EntrevistaService : IEntrevistaService
             ?? throw new Exception("Candidato não encontrado");
 
         entrevista.SetTitulo(request.Titulo);
+        entrevista.SetDescricao(request.Descricao);
         entrevista.SetEntrevistador(entrevistador);
         entrevista.SetCandidato(candidato);
         entrevista.SetDataHora(request.DataHora.UtcDateTime);
@@ -106,6 +108,7 @@ public class EntrevistaService : IEntrevistaService
         {
             Id = entrevista.Id,
             Titulo = entrevista.Titulo,
+            Descricao = entrevista.Descricao,
             EntrevistadorId = entrevista.Entrevistador.Id,
             EntrevistadorNome = entrevista.Entrevistador.Nome,
             CandidatoId = entrevista.Candidato.Id,

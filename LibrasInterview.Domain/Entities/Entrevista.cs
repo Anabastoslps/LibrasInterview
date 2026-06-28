@@ -14,6 +14,7 @@ public class Entrevista
 
     public virtual DateTime DataHora { get; protected set; }
     public virtual string Titulo { get; protected set; } = string.Empty;
+    public virtual string Descricao { get; protected set; } = string.Empty;
 
     public virtual StatusEntrevista Status { get; protected set; }
     public virtual IList<Transcricao> Transcricoes { get; protected set; }
@@ -26,12 +27,14 @@ public class Entrevista
 
     public Entrevista(
         string titulo,
+        string descricao,
         Usuario entrevistador,
         Usuario candidato,
         DateTime dataHora
     )
     {
         SetTitulo(titulo);
+        SetDescricao(descricao);
         SetEntrevistador(entrevistador);
         SetCandidato(candidato);
         ValidarParticipantes();
@@ -45,6 +48,11 @@ public class Entrevista
             throw new Exception("Título da entrevista é obrigatório");
 
         Titulo = titulo.Trim();
+    }
+
+    public virtual void SetDescricao(string descricao)
+    {
+        Descricao = descricao?.Trim() ?? string.Empty;
     }
 
     public virtual void SetEntrevistador(Usuario entrevistador)
