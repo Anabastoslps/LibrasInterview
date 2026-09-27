@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibrasInterview.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fe90ecb9b78d1d1b7ee683897c1cb0fd3b1785e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63fe35e4c29b85433e8f6224c8d4add664de7965")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibrasInterview.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibrasInterview.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
